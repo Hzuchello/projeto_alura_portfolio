@@ -4,38 +4,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
-    <title>Projeto Guiado Alura - Portfólio</title>
+    <title>Portfólio</title>
 </head>
 
 <body>
-    <header>
+
+        <header class="cabecalho">
+            <nav class="cabecalho_menu">
+                 <a class="cabecalho__menu__link" href="index.html">Home</a>
+                 <a class="cabecalho__menu__link" href="about.html">Sobre Mim</a>
+            </nav>
+        </header>
+
         <main class="apresentacao">
             <section class="apresentacao__conteudo">
-                <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a <strong class="titulo-destaque">outro nível</strong></h1>
+                <h1 class="apresentacao__conteudo__titulo">Olá! Sou o Henrique, este é um projeto guiado<strong class="titulo-destaque"> Alura!</strong></h1>
                 <p class="apresentacao__conteudo__texto">
-                Olá! Sou Henrique, desenvolvedor... Ajudo pequenos negócios a colocarem em prática boas ideias. Vamos conversar?
+                Sou Desenvolvedor, ajudo pequenos negócios a colocarem em prática boas ideias. Vamos conversar?
                 </p>
                 <div class="apresentacao__links">
-                    <a class="apresentacao__links__link" href="https://hzuchello.wordpress.com/" target="_blank">Wordpress</a>
-                    <a class="apresentacao__links__link" href="https://github.com/Hzuchello" target="_blank">GitHub</a>
+                <h2 class="apresentacao_links_subtitulo">Acesse minhas redes:</h2>
+                <a class="apresentacao__links__link" href="https://api.whatsapp.com/send?phone=5541991283609&text=Olá!" target="_blank">
+                WhatsApp                       
+                </a>
+                <a class="apresentacao__links__link" href="https://www.linkedin.com/in/hzuchello/" target="_blank">
+                Linkedin
+                </a>
+                <a class="apresentacao__links__link" href="https://github.com/Hzuchello" target="_blank">
+                GitHub
+                </a>
                 </div>
             </section>
+                <!-- <img class="apresentacao__imagem" src="img/dragonSphere[2].jpg" alt="Dragon Ball"> -->
+       </main>
 
-            <img src="img/dragonSphere.jpg" alt="4th Dragon Ball">
+        <footer class="rodape">
+                <p>Desenvolvido por Alura</p>
+         </footer>
 
-
-            <footer>
-
-            </footer>
-        </main>
-    </header>
-    
-    
-
-
-</body>
+    </body>
 </html>
